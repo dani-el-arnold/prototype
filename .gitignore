@@ -1,0 +1,9 @@
+# Virtuelle Python-Umgebung (sehr groß, gehört nicht in Git)
+venv/
+
+# Temporäre Python-Cache-Dateien
+__pycache__/
+*.pyc
+
+# Sensible Zugangsdaten/Schlüssel
+.env
