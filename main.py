@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<h1>Hallo Welt von Google Cloud Run!</h1>"
+    return "<h1>Hallo Daniel! Looking good today :*</h1>"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
